@@ -38,11 +38,9 @@ namespace Labb2
             biggestVolume = shapes.OfType<Shape3D>().Select(shape => shape.Volume).Max();
             avgArea = sumAreaAllShape / shapes.Count;
 
-            Console.WriteLine($"\n---------------------------------------------------------");
-            Console.WriteLine($"\nSumman av omkretsen av alla trianglar är: {allTriangleCircumference:F1}");
+            Console.WriteLine($"Summan av omkretsen av alla trianglar är: {allTriangleCircumference:F1}");
             Console.WriteLine($"Den genomsnittliga arean av alla Shapes är: {avgArea:F1}");
             Console.WriteLine($"Den största volymen av alla 3D-Shapes är: {biggestVolume:F1}");
-            Console.WriteLine($"\n---------------------------------------------------------");
 
 
         }
@@ -87,11 +85,10 @@ namespace Labb2
             biggestVolume = shapes.OfType<Shape3D>().Select(shape => shape.Volume).Max();
             avgArea = sumAreaAllShape / shapes.Count;
 
-            Console.WriteLine($"\n---------------------------------------------------------");
+            
             Console.WriteLine($"\nSumman av omkretsen av alla trianglar är: {allTriangleCircumference:F1}");
             Console.WriteLine($"Den genomsnittliga arean av alla Shapes är: {avgArea:F1}");
             Console.WriteLine($"Den största volymen av alla 3D-Shapes är: {biggestVolume:F1}");
-            Console.WriteLine($"\n---------------------------------------------------------");
 
             Triangle t = new(Vector2.Zero, Vector2.One, new Vector2(2.0f, .5f));
             foreach (Vector2 v in t)
