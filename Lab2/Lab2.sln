@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Labb2", "Lab2\Labb2.csproj", "{CE203686-1A08-4141-8229-482E900EC04D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shapelibrary", "Shapelibrary\Shapelibrary.csproj", "{D92D5308-8CF1-466B-AEEE-3D565E2289F0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE203686-1A08-4141-8229-482E900EC04D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE203686-1A08-4141-8229-482E900EC04D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE203686-1A08-4141-8229-482E900EC04D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE203686-1A08-4141-8229-482E900EC04D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D92D5308-8CF1-466B-AEEE-3D565E2289F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D92D5308-8CF1-466B-AEEE-3D565E2289F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D92D5308-8CF1-466B-AEEE-3D565E2289F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D92D5308-8CF1-466B-AEEE-3D565E2289F0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {41CFECA9-E9CC-4969-A698-E4335C25326C}
+	EndGlobalSection
+EndGlobal
